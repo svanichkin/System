@@ -279,10 +279,10 @@ public extension System {
         let globalQueue = DispatchQueue.global()
         dispatchGroup.enter()
         globalQueue.async {
-            if let url = URL(string: System.SYSTEM_URL),
-               let date = System.lastModificationDateOfFileAtURL(url) {
+            if let url = URL(string: System.SYSTEM_URL) {
+                let date = System.lastModificationDateOfFileAtURL(url)
                 let lastUpdate = UserDefaults.standard.object(forKey: System.SYSTEM_UPDATE) as? Date
-                if lastUpdate == nil || lastUpdate! < date {
+                if lastUpdate == nil || date == nil || lastUpdate! < date! {
                    if let data = try? Data(contentsOf: url),
                       let dict = try? JSONDecoder().decode([String:DBDevice].self, from: data) {
                        UserDefaults.standard.set(date, forKey: System.SYSTEM_UPDATE)
