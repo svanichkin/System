@@ -279,13 +279,13 @@ public extension System {
         let globalQueue = DispatchQueue.global()
         dispatchGroup.enter()
         globalQueue.async {
-            if let url = URL(string: System.SYSTEM_URL) {
-                let date = System.lastModificationDateOfFileAtURL(url)
-                let lastUpdate = UserDefaults.standard.object(forKey: System.SYSTEM_UPDATE) as? Date
-                if lastUpdate == nil || date == nil || lastUpdate! < date! {
+            if let url = URL(string: System.SYSTEM_URL),
+               let newContentLength = System.contentLengthWithURL(url) {
+                let oldContentLength = UserDefaults.standard.object(forKey: System.SYSTEM_UPDATE) as? String
+                if newContentLength != oldContentLength {
                    if let data = try? Data(contentsOf: url),
                       let dict = try? JSONDecoder().decode([String:DBDevice].self, from: data) {
-                       UserDefaults.standard.set(Date(), forKey: System.SYSTEM_UPDATE)
+                       UserDefaults.standard.set(newContentLength, forKey: System.SYSTEM_UPDATE)
                        UserDefaults.standard.set(data, forKey: System.SYSTEM_CONFIG)
                        DispatchQueue.main.async { System.db = dict }
                        dispatchGroup.leave()
@@ -313,7 +313,7 @@ public extension System {
         return [String:DBDevice]()
     }
     
-    static private func lastModificationDateOfFileAtURL(_ url: URL) -> Date? {
+    static private func contentLengthWithURL(_ url: URL) -> String? {
         var request = URLRequest(url: url)
         request.httpMethod = "HEAD"
         var error: Error? = nil
@@ -326,13 +326,11 @@ public extension System {
         }.resume()
         semaphore.wait()
         if error != nil { return nil }
-        if let response = response {
-            guard let response = response as? HTTPURLResponse else { return nil }
+        if let response = response as? HTTPURLResponse {
             let headerFields = response.allHeaderFields
-            guard let lastModification = headerFields["Last-Modified"] as? String else { return nil }
-            let formatter = DateFormatter()
-            formatter.dateFormat = "EEE, dd MMM yyyy HH:mm:ss zzz"
-            return formatter.date(from: lastModification)
+            if let contentLength = headerFields["Content-Length"] as? String {
+                return contentLength
+            }
         }
         return nil
     }
