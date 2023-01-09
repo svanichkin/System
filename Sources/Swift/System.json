@@ -1,0 +1,2275 @@
+{
+	"i386" : {
+		"name" : "32-bit Simulator",
+	},
+	"x86_64" : {
+		"name" : "64-bit Simulator",
+	},
+
+	"iPod1,1" : {
+		"cpu" : "Samsung S5L8900X CPU @ 412MHz",
+		"info" : "GSM (model A1213)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPod Touch",
+		"year" : "2007 or 2008",
+		"type" : "DeviceType_iPod"
+	},
+	"iPod2,1" : {
+		"cpu" : "Samsung S5L8720X CPU @ 533MHz",
+		"info" : "GSM (model A1288, A1319 China)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPod Touch 2nd",
+		"year" : "2008",
+		"type" : "DeviceType_iPod"
+	},
+	"iPod3,1" : {
+		"cpu" : "Cortex-A8 CPU @ 600MHz",
+		"info" : "GSM (model A1318)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPod Touch 3nd",
+		"year" : "2009",
+		"type" : "DeviceType_iPod"
+	},
+	"iPod4,1" : {
+		"cpu" : "Apple A4 CPU @ 800MHz",
+		"info" : "GSM (model A1367)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPod Touch 4th",
+		"year" : "2010 or 2011",
+		"type" : "DeviceType_iPod"
+	},
+	"iPod5,1" : {
+		"cpu" : "Apple A5 CPU @ 800MHz",
+		"info" : "GSM (model A1421, A1509)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPod Touch 5th",
+		"year" : "2012—2014",
+		"type" : "DeviceType_iPod"
+	},
+	"iPod7,1" : {
+		"cpu" : "Apple A8 CPU @ 1.10GHz",
+		"info" : "GSM (model A1574)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPod Touch 6th",
+		"year" : "2015",
+		"type" : "DeviceType_iPod"
+	},
+	"iPod9,1" : {
+		"cpu" : "Apple A10 Fusion CPU @ 1.63GHz",
+		"info" : "GSM (model A2178)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPod Touch 7th",
+		"year" : "2019",
+		"type" : "DeviceType_iPod"
+	},
+
+	"iPhone1,1" : {
+		"cpu" : "Samsung S3C6400 CPU @ 412MHz",
+		"info" : "GSM (model A1203)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone",
+		"year" : "2007",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone1,2" : {
+		"cpu" : "Samsung S3C6400 CPU @ 412MHz",
+		"info" : "GSM (model A1241, A1324 China)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 3G",
+		"year" : "2008",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone2,1" : {
+		"cpu" : "Samsung S5PC100 CPU @ 600MHz",
+		"info" : "GSM (model A1303, A1325 China)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 3GS",
+		"year" : "2009—2010",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone3,1" : {
+		"cpu" : "Apple A4 CPU @ 800MHz",
+		"info" : "GSM (model A1332)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 4",
+		"year" : "2010—2011",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone3,2" : {
+		"cpu" : "Apple A4 CPU @ 800MHz",
+		"info" : "GSM Rev A (model A1332)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 4",
+		"year" : "2010—2011",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone3,3" : {
+		"cpu" : "Apple A4 CPU @ 800MHz",
+		"info" : "CDMA, Verizon or Sprint (model A1349)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 4",
+		"year" : "2011",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone4,1" : {
+		"cpu" : "Apple A5 CPU @ 800MHz",
+		"info" : "GSM (model A1387, A1431 China)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 4s",
+		"year" : "2011 or 2013",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone5,1" : {
+		"cpu" : "Apple A6 CPU @ 1.30GHz",
+		"info" : "GSM, AT&T or Canada (model A1428)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 5",
+		"year" : "2012",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone5,2" : {
+		"cpu" : "Apple A6 CPU @ 1.30GHz",
+		"info" : "GSM or CDMA (model A1429, A1442 China)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 5",
+		"year" : "2012",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone5,3" : {
+		"cpu" : "Apple A6 CPU @ 1.30GHz",
+		"info" : "GSM or CDMA (model A1456, A1532)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 5c",
+		"year" : "2013 or 2014",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone5,4" : {
+		"cpu" : "Apple A6 CPU @ 1.30GHz",
+		"info" : "CDMA (model A1507, A1516, A1529, A1526 China)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 5c",
+		"year" : "2013 or 2014",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone6,1" : {
+		"cpu" : "Apple A7 CPU @ 1.30GHz",
+		"info" : "GSM (model A1433, A1533)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 5s",
+		"year" : "2013",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone6,2" : {
+		"cpu" : "Apple A7 CPU @ 1.30GHz",
+		"info" : "GSM or CDMA (model A1457, A1518, A1530, A1528 China)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone 5s",
+		"year" : "2013",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone7,1" : {
+		"cpu" : "Apple A8 CPU @ 1.40GHz",
+		"info" : "GSM or CDMA (model A1522, A1524, A1593)",
+		"model" : "DeviceModel_Plus",
+		"name" : "iPhone 6 Plus",
+		"year" : "2014",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone7,2" : {
+		"cpu" : "Apple A8 CPU @ 1.40GHz",
+		"info" : "GSM or CDMA (model A1549, A1586, A1589)",
+		"model" : "DeviceModel_Classic",
+		"name" : "iPhone 6",
+		"year" : "2014",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone8,1" : {
+		"cpu" : "Apple A9 CPU @ 1.85GHz",
+		"info" : "GSM or CDMA (model A1633, A1688, A1691, A1700)",
+		"model" : "DeviceModel_Classic",
+		"name" : "iPhone 6s",
+		"year" : "2015 or 2016",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone8,2" : {
+		"cpu" : "Apple A9 CPU @ 1.85GHz",
+		"info" : "GSM or CDMA (model A1634, A1687, A1699)",
+		"model" : "DeviceModel_Plus",
+		"name" : "iPhone 6s Plus",
+		"year" : "2015 or 2016",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone8,4" : {
+		"cpu" : "Apple A9 CPU @ 1.85GHz",
+		"info" : "GSM or CDMA (model A1662, A1723, A1724)",
+		"model" : "DeviceModel_Compact",
+		"name" : "iPhone SE",
+		"year" : "2016 or 2017",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone9,1" : {
+		"cpu" : "Apple A10 Fusion CPU @ 2.34GHz",
+		"info" : "GSM or CDMA (model A1660, A1780, A1779)",
+		"model" : "DeviceModel_Classic",
+		"name" : "iPhone 7",
+		"year" : "2016",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone9,2" : {
+		"cpu" : "Apple A10 Fusion CPU @ 2.34GHz",
+		"info" : "GSM or CDMA (model A1661, A1785, A1786)",
+		"model" : "DeviceModel_Plus",
+		"name" : "iPhone 7 Plus",
+		"year" : "2016",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone9,3" : {
+		"cpu" : "Apple A10 Fusion CPU @ 2.34GHz",
+		"info" : "GSM (model A1778)",
+		"model" : "DeviceModel_Classic",
+		"name" : "iPhone 7",
+		"year" : "2016",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone9,4" : {
+		"cpu" : "Apple A10 Fusion CPU @ 2.34GHz",
+		"info" : "GSM (model A1784)",
+		"model" : "DeviceModel_Plus",
+		"name" : "iPhone 7 Plus",
+		"year" : "2016",
+		"type" : "DeviceType_iPhone"
+	},	
+	"iPhone10,1" : {
+		"cpu" : "Apple A11 Bionic CPU @ 2.39GHz",
+		"info" : "GSM or CDMA (model A1863, A1906, A1907)",
+		"model" : "DeviceModel_Classic",
+		"name" : "iPhone 8",
+		"year" : "2017",
+		"type" : "DeviceType_iPhone"
+	},	
+	"iPhone10,2" : {
+		"cpu" : "Apple A11 Bionic CPU @ 2.39GHz",
+		"info" : "GSM or CDMA (model A1864, A1898, A1899)",
+		"model" : "DeviceModel_Plus",
+		"name" : "iPhone 8 Plus",
+		"year" : "2017",
+		"type" : "DeviceType_iPhone"
+	},	
+	"iPhone10,3" : {
+		"cpu" : "Apple A11 Bionic CPU @ 2.39GHz",
+		"info" : "GSM or CDMA (model A1865, A1902)",
+		"model" : "DeviceModel_X",
+		"name" : "iPhone X",
+		"year" : "2017",
+		"type" : "DeviceType_iPhone"
+	},	
+	"iPhone10,4" : {
+		"cpu" : "Apple A11 Bionic CPU @ 2.39GHz",
+		"info" : "GSM (model A1905)",
+		"model" : "DeviceModel_Classic",
+		"name" : "iPhone 8",
+		"year" : "2017",
+		"type" : "DeviceType_iPhone"
+	},	
+	"iPhone10,5" : {
+		"cpu" : "Apple A11 Bionic CPU @ 2.39GHz",
+		"info" : "GSM (model A1897)",
+		"model" : "DeviceModel_Plus",
+		"name" : "iPhone 8 Plus",
+		"year" : "2017",
+		"type" : "DeviceType_iPhone"
+	},	
+	"iPhone10,6" : {
+		"cpu" : "Apple A11 Bionic CPU @ 2.39GHz",
+		"info" : "GSM (model A1901)",
+		"model" : "DeviceModel_X",
+		"name" : "iPhone X",
+		"year" : "2017",
+		"type" : "DeviceType_iPhone"
+	},	
+	"iPhone11,2" : {
+		"cpu" : "Apple A12 Bionic CPU @ 2.49GHz",
+		"info" : "GSM or CDMA (model A1920, A2097, A2098, A2100)",
+		"model" : "DeviceModel_X",
+		"name" : "iPhone XS",
+		"year" : "2018",
+		"type" : "DeviceType_iPhone"
+	},	
+	"iPhone11,6" : {
+		"cpu" : "Apple A12 Bionic CPU @ 2.49GHz",
+		"info" : "GSM or CDMA (model A1921, A2101, A2102, A2104)",
+		"model" : "DeviceModel_Max",
+		"name" : "iPhone XS Max",
+		"year" : "2018",
+		"type" : "DeviceType_iPhone"
+	},	
+	"iPhone11,8" : {
+		"cpu" : "Apple A12 Bionic CPU @ 2.49GHz",
+		"info" : "GSM or CDMA (model A1984, A2105, A2106, A2108, A2107)",
+		"model" : "DeviceModel_X",
+		"name" : "iPhone XR",
+		"year" : "2018",
+		"type" : "DeviceType_iPhone"
+	},	
+	"iPhone12,1" : {
+		"cpu" : "Apple A13 Bionic CPU @ 2.66GHz",
+		"info" : "GSM or CDMA (model A2111, A2221, A2223)",
+		"model" : "DeviceModel_Simple",
+		"name" : "iPhone 11",
+		"year" : "2019",
+		"type" : "DeviceType_iPhone"
+	},	
+	"iPhone12,3" : {
+		"cpu" : "Apple A13 Bionic CPU @ 2.66GHz",
+		"info" : "GSM or CDMA (model A2160, A2217, A2215)",
+		"model" : "DeviceModel_X",
+		"name" : "iPhone 11 Pro",
+		"year" : "2019",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone12,5" : {
+		"cpu" : "Apple A13 Bionic CPU @ 2.66GHz",
+		"info" : "GSM or CDMA (model A2161, A2218, A2220)",
+		"model" : "DeviceModel_Max",
+		"name" : "iPhone 11 Pro Max",
+		"year" : "2019",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone12,8" : {
+		"cpu" : "Apple A13 Bionic CPU @ 2.66GHz",
+		"info" : "GSM or CDMA (model A2275, A2298, A2296)",
+		"model" : "DeviceModel_Classic",
+		"name" : "iPhone SE 2nd",
+		"year" : "2020",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone13,1" : {
+		"cpu" : "Apple A14 Bionic CPU @ 3.00GHz",
+		"info" : "GSM or CDMA (model A2176, A2398, A2400, A2399)",
+		"model" : "DeviceModel_Simple",
+		"name" : "iPhone 12 Mini",
+		"year" : "2020",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone13,2" : {
+		"cpu" : "Apple A14 Bionic CPU @ 3.00GHz",
+		"info" : "GSM or CDMA (model A2172, A2402, A2403, A2404)",
+		"model" : "DeviceModel_Simple",
+		"name" : "iPhone 12",
+		"year" : "2020",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone13,3" : {
+		"cpu" : "Apple A14 Bionic CPU @ 3.00GHz",
+		"info" : "GSM or CDMA (model A2172, A2402, A2403, A2404)",
+		"model" : "DeviceModel_Simple",
+		"name" : "iPhone 12 Pro",
+		"year" : "2020",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone13,4" : {
+		"cpu" : "Apple A14 Bionic CPU @ 3.00GHz",
+		"info" : "GSM or CDMA (model A2341, A2406, A2407, A2408)",
+		"model" : "DeviceModel_X",
+		"name" : "iPhone 12 Pro Max",
+		"year" : "2020",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone14,2" : {
+		"cpu" : "Apple A15 Bionic CPU @ 3.23GHz",
+		"info" : "GSM or CDMA (model A2638, A2483, A2636, A2639, A2640)",
+		"model" : "DeviceModel_Simple",
+		"name" : "iPhone 13 Pro",
+		"year" : "2021",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone14,3" : {
+		"cpu" : "Apple A15 Bionic CPU @ 3.23GHz",
+		"info" : "GSM or CDMA (model A2643, A2484, A2641, A2644, A2645)",
+		"model" : "DeviceModel_X",
+		"name" : "iPhone 13 Pro Max",
+		"year" : "2021",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone14,4" : {
+		"cpu" : "Apple A15 Bionic CPU @ 3.23GHz",
+		"info" : "GSM or CDMA (model A2399, A2176, A2398, A2400, A2630)",
+		"model" : "DeviceModel_Simple",
+		"name" : "iPhone 13 Mini",
+		"year" : "2021",
+		"type" : "DeviceType_iPhone"
+	},
+	"iPhone14,5" : {
+		"cpu" : "Apple A15 Bionic CPU @ 3.23GHz",
+		"info" : "GSM or CDMA (model A2633, A2482, A2631, A2634, A2635)",
+		"model" : "DeviceModel_Simple",
+		"name" : "iPhone 13",
+		"year" : "2021",
+		"type" : "DeviceType_iPhone"
+	},
+
+	"iPad1,1" : {
+		"cpu" : "Apple A4 CPU @ 1.00GHz",
+		"info" : "Wifi (model A1219)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad",
+		"year" : "2010",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad1,2" : {
+		"cpu" : "Apple A4 CPU @ 1.00GHz",
+		"info" : "Wifi + 3G (model A1337)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad",
+		"year" : "2010",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad2,1" : {
+		"cpu" : "Apple A5 CPU @ 1.00GHz",
+		"info" : "Wifi (model A1395)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 2",
+		"year" : "2011",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad2,2" : {
+		"cpu" : "Apple A5 CPU @ 1.00GHz",
+		"info" : "Wifi + 3G GSM (model A1396)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 2",
+		"year" : "2011",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad2,3" : {
+		"cpu" : "Apple A5 CPU @ 1.00GHz",
+		"info" : "Wifi + 3G CDMA (model A1397)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 2",
+		"year" : "2011",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad2,4" : {
+		"cpu" : "Apple A5 CPU @ 1.00GHz",
+		"info" : "Wifi (model A1395)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 2",
+		"year" : "2011",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad2,5" : {
+		"cpu" : "Apple A5 CPU @ 1.00GHz",
+		"info" : "Wifi (model A1432)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini",
+		"year" : "2012",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad2,6" : {
+		"cpu" : "Apple A5 CPU @ 1.00GHz",
+		"info" : "Wifi + Cellular (model  A1454)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini",
+		"year" : "2012",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad2,7" : {
+		"cpu" : "Apple A5 CPU @ 1.00GHz",
+		"info" : "Wifi + Cellular MM (model  A1455)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini",
+		"year" : "2012",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad3,1" : {
+		"cpu" : "Apple A5X CPU @ 1.00GHz",
+		"info" : "Wifi (model A1416)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 3rd",
+		"year" : "2012",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad3,2" : {
+		"cpu" : "Apple A5X CPU @ 1.00GHz",
+		"info" : "Wifi + Cellular Verizon (model  A1403)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 3rd",
+		"year" : "2012",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad3,3" : {
+		"cpu" : "Apple A5X CPU @ 1.00GHz",
+		"info" : "Wifi + Cellular (model  A1430)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 3rd",
+		"year" : "2012",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad3,4" : {
+		"cpu" : "Apple A6X CPU @ 1.40GHz",
+		"info" : "Wifi (model A1458)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 4th",
+		"year" : "2012—2014",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad3,5" : {
+		"cpu" : "Apple A6X CPU @ 1.40GHz",
+		"info" : "Wifi + Cellular (model  A1459)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 4th",
+		"year" : "2012—2014",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad3,6" : {
+		"cpu" : "Apple A6X CPU @ 1.40GHz",
+		"info" : "Wifi + Cellular MM (model  A1460)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 4th",
+		"year" : "2012—2014",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad4,1" : {
+		"cpu" : "Apple A7 CPU @ 1.40GHz",
+		"info" : "Wifi (model A1474)",
+		"model" : "DeviceModel_iPadAir",
+		"name" : "iPad Air",
+		"year" : "2013",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad4,2" : {
+		"cpu" : "Apple A7 CPU @ 1.40GHz",
+		"info" : "Wifi + Cellular (model A1475)",
+		"model" : "DeviceModel_iPadAir",
+		"name" : "iPad Air",
+		"year" : "2013",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad4,3" : {
+		"cpu" : "Apple A7 CPU @ 1.40GHz",
+		"info" : "Wifi + Cellular (model A1476)",
+		"model" : "DeviceModel_iPadAir",
+		"name" : "iPad Air",
+		"year" : "2014",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad4,4" : {
+		"cpu" : "Apple A7 CPU @ 1.30GHz",
+		"info" : "Wifi (model A1489)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini 2",
+		"year" : "2013",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad4,5" : {
+		"cpu" : "Apple A7 CPU @ 1.30GHz",
+		"info" : "Wifi + Cellular (model A1490)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini 2",
+		"year" : "2013",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad4,6" : {
+		"cpu" : "Apple A7 CPU @ 1.30GHz",
+		"info" : "Wifi + Cellular (model A1491)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini 2",
+		"year" : "2014",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad4,7" : {
+		"cpu" : "Apple A7 CPU @ 1.30GHz",
+		"info" : "Wifi (model A1599)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini 3",
+		"year" : "2014",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad4,8" : {
+		"cpu" : "Apple A7 CPU @ 1.30GHz",
+		"info" : "Wifi + Cellular (model A1600)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini 3",
+		"year" : "2014",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad4,9" : {
+		"cpu" : "Apple A7 CPU @ 1.30GHz",
+		"info" : "Wifi + Cellular (model A1601)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini 3",
+		"year" : "2014",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad5,1" : {
+		"cpu" : "Apple A8 CPU @ 1.50GHz",
+		"info" : "Wifi (model A1538)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini 4",
+		"year" : "2015—2016",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad5,2" : {
+		"cpu" : "Apple A8 CPU @ 1.50GHz",
+		"info" : "Wifi + Cellular (model A1550)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini 4",
+		"year" : "2015—2016",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad5,3" : {
+		"cpu" : "Apple A8X CPU @ 1.50GHz",
+		"info" : "Wifi (model A1566)",
+		"model" : "DeviceModel_iPadAir",
+		"name" : "iPad Air 2",
+		"year" : "2014—2016",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad5,4" : {
+		"cpu" : "Apple A8X CPU @ 1.50GHz",
+		"info" : "Wifi + Cellular (model A1567)",
+		"model" : "DeviceModel_iPadAir",
+		"name" : "iPad Air 2",
+		"year" : "2014—2016",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad6,3" : {
+		"cpu" : "Apple A9X CPU @ 2.26GHz",
+		"info" : "Wifi (model A1673)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 9.7\"",
+		"year" : "2016",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad6,4" : {
+		"cpu" : "Apple A9X CPU @ 2.26GHz",
+		"info" : "Wifi + Cellular (model A1674, A1675)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 9.7\"",
+		"year" : "2016",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad6,7" : {
+		"cpu" : "Apple A9X CPU @ 2.26GHz",
+		"info" : "Wifi (model A1584)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\"",
+		"year" : "2015",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad6,8" : {
+		"cpu" : "Apple A9X CPU @ 2.26GHz",
+		"info" : "Wifi + Cellular (model A1652)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\"",
+		"year" : "2015",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad6,11" : {
+		"cpu" : "Apple A9 CPU @ 1.80GHz",
+		"info" : "Wifi (model A1822)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 5th",
+		"year" : "2017",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad6,12" : {
+		"cpu" : "Apple A9 CPU @ 1.80GHz",
+		"info" : "Wifi + Cellular (model A1823)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 5th",
+		"year" : "2017",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad7,1" : {
+		"cpu" : "Apple A9X CPU @ 2.26GHz",
+		"info" : "Wifi (model A1670)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 2nd",
+		"year" : "2017",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad7,2" : {
+		"cpu" : "Apple A9X CPU @ 2.26GHz",
+		"info" : "Wifi + Cellular (model A1671, A1821)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 2nd",
+		"year" : "2017",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad7,3" : {
+		"cpu" : "Apple A9X CPU @ 2.26GHz",
+		"info" : "Wifi (model A1701)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 10.5\"",
+		"year" : "2017",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad7,4" : {
+		"cpu" : "Apple A9X CPU @ 2.26GHz",
+		"info" : "Wifi + Cellular (model A1709)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 10.5\"",
+		"year" : "2017",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad7,5" : {
+		"cpu" : "Apple A10 Fusion CPU @ 2.32GHz",
+		"info" : "WiFi (model A1893)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 6th",
+		"year" : "2018",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad7,6" : {
+		"cpu" : "Apple A10 Fusion CPU @ 2.32GHz",
+		"info" : "WiFi + Cellular (model A1954)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 6th",
+		"year" : "2018",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad7,11" : {
+		"cpu" : "Apple A10 Fusion CPU @ 2.32GHz",
+		"info" : "WiFi (model A2197)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 7th",
+		"year" : "2019",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad7,12" : {
+		"cpu" : "Apple A10 Fusion CPU @ 2.32GHz",
+		"info" : "WiFi + Cellular (model A2200, A2198, A2199)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 7th",
+		"year" : "2019",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,1" : {
+		"cpu" : "Apple A12X Bionic CPU @ 2.49GHz",
+		"info" : "WiFi (model A1980)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 11\"",
+		"year" : "2018",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,2" : {
+		"cpu" : "Apple A12X Bionic CPU @ 2.49GHz",
+		"info" : "1TB, WiFi (model A1980)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 11\"",
+		"year" : "2018",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,3" : {
+		"cpu" : "Apple A12X Bionic CPU @ 2.49GHz",
+		"info" : "WiFi + Cellular (model A2013, A1934, A1979)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 11\"",
+		"year" : "2018",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,4" : {
+		"cpu" : "Apple A12X Bionic CPU @ 2.49GHz",
+		"info" : "1TB, WiFi + Cellular (model A2013, A1934, A1979)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 11\"",
+		"year" : "2018",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,5" : {
+		"cpu" : "Apple A12X Bionic CPU @ 2.49GHz",
+		"info" : "WiFi (model A1876)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 3rd",
+		"year" : "2018",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,6" : {
+		"cpu" : "Apple A12X Bionic CPU @ 2.49GHz",
+		"info" : "1TB, WiFi (model A2014, A1895, A1983)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 3rd",
+		"year" : "2018",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,7" : {
+		"cpu" : "Apple A12X Bionic CPU @ 2.49GHz",
+		"info" : "WiFi + Cellular (model A2014, A1895, A1983)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 3rd",
+		"year" : "2018",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,8" : {
+		"cpu" : "Apple A12X Bionic CPU @ 2.49GHz",
+		"info" : "1TB, WiFi + Cellular (model A2014, A1895, A1983)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 3rd",
+		"year" : "2018",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,9" : {
+		"cpu" : "Apple A12Z Bionic CPU @ 2.49GHz",
+		"info" : "WiFi (model A2228)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 11\" 2nd",
+		"year" : "2020",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,10" : {
+		"cpu" : "Apple A12Z Bionic CPU @ 2.49GHz",
+		"info" : "1TB, WiFi (model A2068, A2230, A2231)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 11\" 2nd",
+		"year" : "2020",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,11" : {
+		"cpu" : "Apple A12Z Bionic CPU @ 2.49GHz",
+		"info" : "WiFi (model A2229)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 4th",
+		"year" : "2020",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad8,12" : {
+		"cpu" : "Apple A12Z Bionic CPU @ 2.49GHz",
+		"info" : "WiFi + Cellular (model A2069, A2232, A2233)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 4th",
+		"year" : "2020",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad11,1" : {
+		"cpu" : "Apple A12 Bionic CPU @ 2.49GHz",
+		"info" : "WiFi (model A2133)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini 5th",
+		"year" : "2019",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad11,2" : {
+		"cpu" : "Apple A12 Bionic CPU @ 2.49GHz",
+		"info" : "Wifi + Cellular (model A2124, A2125, A2126)",
+		"model" : "DeviceModel_iPadMini",
+		"name" : "iPad mini 5th",
+		"year" : "2019",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad11,3" : {
+		"cpu" : "Apple A12 Bionic CPU @ 2.49GHz",
+		"info" : "Wifi (model A2152)",
+		"model" : "DeviceModel_iPadAir",
+		"name" : "iPad Air 3rd",
+		"year" : "2019",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad11,4" : {
+		"cpu" : "Apple A12 Bionic CPU @ 2.49GHz",
+		"info" : "Wifi (model A2123, A2153, A2154)",
+		"model" : "DeviceModel_iPadAir",
+		"name" : "iPad Air 3rd",
+		"year" : "2019",
+		"type" : "DeviceType_iPad"
+	},
+	"iPad11,6" : {
+		"cpu" : "Apple A12 Bionic CPU @ 2.49GHz",
+		"info" : "Wifi (model A2270)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 8th",
+		"year" : "2020",
+		"type" : "DeviceType_iPad"
+	},
+	"iPad11,7" : {
+		"cpu" : "Apple A12 Bionic CPU @ 2.49GHz",
+		"info" : "Wifi + Cellular (model A2428, A2429, A2430)",
+		"model" : "DeviceModel_iPadClassic",
+		"name" : "iPad 8th",
+		"year" : "2020",
+		"type" : "DeviceType_iPad"
+	},	
+	"iPad13,1" : {
+		"cpu" : "Apple A14 Bionic CPU @ 3.00GHz",
+		"info" : "Wifi (model A2316)",
+		"model" : "DeviceModel_iPadAir",
+		"name" : "iPad Air 4th",
+		"year" : "2020",
+		"type" : "DeviceType_iPad"
+	},
+	"iPad13,2" : {
+		"cpu" : "Apple A14 Bionic CPU @ 3.00GHz",
+		"info" : "Wifi + Cellular (model A2324, A2072, A2325)",
+		"model" : "DeviceModel_iPadAir",
+		"name" : "iPad Air 4th",
+		"year" : "2020",
+		"type" : "DeviceType_iPad"
+	},
+	"iPad13,4" : {
+		"cpu" : "Apple M1 CPU @ 3.20GHz",
+		"info" : "Wifi (model A2377)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 11\" 3th",
+		"year" : "2021",
+		"type" : "DeviceType_iPad"
+	},
+	"iPad13,5" : {
+		"cpu" : "Apple M1 CPU @ 3.20GHz",
+		"info" : "Wifi (model A2377)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 11\" 3th",
+		"year" : "2021",
+		"type" : "DeviceType_iPad"
+	},
+	"iPad13,6" : {
+		"cpu" : "Apple M1 CPU @ 3.20GHz",
+		"info" : "Wifi + Cellular (model A2459, A2301, A2460)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 11\" 3th",
+		"year" : "2021",
+		"type" : "DeviceType_iPad"
+	},
+	"iPad13,7" : {
+		"cpu" : "Apple M1 CPU @ 3.20GHz",
+		"info" : "Wifi + Cellular (model A2459, A2301, A2460)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 11\" 3th",
+		"year" : "2021",
+		"type" : "DeviceType_iPad"
+	},
+	"iPad13,8" : {
+		"cpu" : "Apple M1 CPU @ 3.20GHz",
+		"info" : "WiFi (model A2378)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 5th",
+		"year" : "2021",
+		"type" : "DeviceType_iPad"
+	},
+	"iPad13,9" : {
+		"cpu" : "Apple M1 CPU @ 3.20GHz",
+		"info" : "WiFi (model A2378)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 5th",
+		"year" : "2021",
+		"type" : "DeviceType_iPad"
+	},
+	"iPad13,10" : {
+		"cpu" : "Apple M1 CPU @ 3.20GHz",
+		"info" : "WiFi + Cellular (model A2461, A2379, A2462)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 5th",
+		"year" : "2021",
+		"type" : "DeviceType_iPad"
+	},
+	"iPad13,11" : {
+		"cpu" : "Apple M1 CPU @ 3.20GHz",
+		"info" : "WiFi + Cellular (model A2461, A2379, A2462)",
+		"model" : "DeviceModel_iPadPro",
+		"name" : "iPad Pro 12.9\" 5th",
+		"year" : "2021",
+		"type" : "DeviceType_iPad"
+	},
+
+	"AppleTV5,3" : {
+		"cpu" : "Apple A8 CPU @ 1.40GHz",
+		"model" : "DeviceModel_TVHD",
+		"name" : "Apple TV",
+		"year" : "2015",
+		"type" : "DeviceType_TV"
+	},	
+	"AppleTV6,2" : {
+		"cpu" : "Apple A10 Fusion CPU @ 2.32GHz",
+		"model" : "DeviceModel_TV4K",
+		"name" : "Apple TV 4K",
+		"year" : "2017",
+		"type" : "DeviceType_TV"
+	},	
+	
+	"AudioAccessory1,1" : {
+		"cpu" : "Apple A8 CPU @ 1.50GHz",
+		"name" : "HomePod",
+		"year" : "2018",
+		"type" : "DeviceType_HomePod"
+	},
+
+	"Watch1,1" : {
+		"cpu" : "Apple S1 CPU @ 520MHz",
+		"info" : "Wifi (model A1553)",
+		"model" : "DeviceModel_WatchS",
+		"name" : "Apple Watch 38mm case",
+		"year" : "2015",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch1,2" : {
+		"cpu" : "Apple S1 CPU @ 520MHz",
+		"info" : "Wifi (model A1554)",
+		"model" : "DeviceModel_WatchB",
+		"name" : "Apple Watch 42mm case",
+		"year" : "2015",
+		"type" : "DeviceType_Watch"
+	},
+	"Watch2,3" : {
+		"cpu" : "Apple S2 CPU @ 780MHz",
+		"info" : "Wifi (model A1757, A1816)",
+		"model" : "DeviceModel_WatchS",
+		"name" : "Apple Watch Series 2 38mm case",
+		"year" : "2016",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch2,4" : {
+		"cpu" : "Apple S2 CPU @ 780MHz",
+		"info" : "Wifi (model A1758, A1817)",
+		"model" : "DeviceModel_WatchB",
+		"name" : "Apple Watch Series 2 42mm case",
+		"year" : "2016",
+		"type" : "DeviceType_Watch"
+	},
+	"Watch2,6" : {
+		"cpu" : "Apple S1P CPU @ 520MHz",
+		"info" : "Wifi (model A1802)",
+		"model" : "DeviceModel_WatchS",
+		"name" : "Apple Watch Series 1 38mm case",
+		"year" : "2016",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch2,7" : {
+		"cpu" : "Apple S1P CPU @ 520MHz",
+		"info" : "Wifi (model A1803)",
+		"model" : "DeviceModel_WatchB",
+		"name" : "Apple Watch Series 1 42mm case",
+		"year" : "2016",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch3,1" : {
+		"cpu" : "Apple S3 CPU @ ???MHz",
+		"info" : "Wifi + Cellular (model A1860, A1889, A1890)",
+		"model" : "DeviceModel_WatchSS",
+		"name" : "Apple Watch Series 3 38mm case",
+		"year" : "2017",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch3,2" : {
+		"cpu" : "Apple S3 CPU @ ???MHz",
+		"info" : "Wifi + Cellular (model A1861, A1891, A1892)",
+		"model" : "DeviceModel_WatchBS",
+		"name" : "Apple Watch Series 3 42mm case",
+		"year" : "2017",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch3,3" : {
+		"cpu" : "Apple S3 CPU @ ???MHz",
+		"info" : "Wifi (model A1858)",
+		"model" : "DeviceModel_WatchS",
+		"name" : "Apple Watch Series 3 38mm case",
+		"year" : "2017",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch3,4" : {
+		"cpu" : "Apple S3 CPU @ ???MHz",
+		"info" : "Wifi (model A1859)",
+		"model" : "DeviceModel_WatchB",
+		"name" : "Apple Watch Series 3 42mm case",
+		"year" : "2017",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch4,1" : {
+		"cpu" : "Apple S4 CPU @ ???MHz",
+		"info" : "Wifi (model A1977)",
+		"model" : "DeviceModel_WatchS",
+		"name" : "Apple Watch Series 4 40mm case",
+		"year" : "2018",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch4,2" : {
+		"cpu" : "Apple S4 CPU @ ???MHz",
+		"info" : "Wifi (model A1978)",
+		"model" : "DeviceModel_WatchB",
+		"name" : "Apple Watch Series 4 44mm case",
+		"year" : "2018",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch4,3" : {
+		"cpu" : "Apple S4 CPU @ ???MHz",
+		"info" : "Wifi + Cellular (model A1975, A2007)",
+		"model" : "DeviceModel_WatchSS",
+		"name" : "Apple Watch Series 4 40mm case",
+		"year" : "2018",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch4,4" : {
+		"cpu" : "Apple S4 CPU @ ???MHz",
+		"info" : "Wifi + Cellular (model A1976, A2008)",
+		"model" : "DeviceModel_WatchBS",
+		"name" : "Apple Watch Series 4 44mm case",
+		"year" : "2018",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch5,1" : {
+		"cpu" : "Apple S5 CPU @ ???MHz",
+		"info" : "Wifi (model A2092)",
+		"model" : "DeviceModel_WatchS",
+		"name" : "Apple Watch Series 5 40mm case",
+		"year" : "2019",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch5,2" : {
+		"cpu" : "Apple S5 CPU @ ???MHz",
+		"info" : "Wifi (model A2093)",
+		"model" : "DeviceModel_WatchB",
+		"name" : "Apple Watch Series 5 44mm case",
+		"year" : "2019",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch5,3" : {
+		"cpu" : "Apple S5 CPU @ ???MHz",
+		"info" : "Wifi + Cellular (model A2094, A2156)",
+		"model" : "DeviceModel_WatchSS",
+		"name" : "Apple Watch Series 5 40mm case",
+		"year" : "2019",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch5,4" : {
+		"cpu" : "Apple S5 CPU @ ???MHz",
+		"info" : "Wifi + Cellular (model A2095, A2157)",
+		"model" : "DeviceModel_WatchBS",
+		"name" : "Apple Watch Series 5 44mm case",
+		"year" : "2019",
+		"type" : "DeviceType_Watch"
+	},
+	"Watch5,9" : {
+		"cpu" : "Apple S5 CPU @ ???MHz",
+		"info" : "Wifi (model A2351)",
+		"model" : "DeviceModel_WatchS",
+		"name" : "Apple Watch SE 40mm case",
+		"year" : "2020",
+		"type" : "DeviceType_Watch"
+	},
+	"Watch5,10" : {
+		"cpu" : "Apple S5 CPU @ ???MHz",
+		"info" : "Wifi (model A2352)",
+		"model" : "DeviceModel_WatchB",
+		"name" : "Apple Watch SE 44mm case",
+		"year" : "2020",
+		"type" : "DeviceType_Watch"
+	},
+	"Watch5,11" : {
+		"cpu" : "Apple S5 CPU @ ???MHz",
+		"info" : "Wifi + Cellular (model A2355, A2353)",
+		"model" : "DeviceModel_WatchSS",
+		"name" : "Apple Watch SE 40mm case",
+		"year" : "2020",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch5,12" : {
+		"cpu" : "Apple S5 CPU @ ???MHz",
+		"info" : "Wifi + Cellular (model A2356, A2354)",
+		"model" : "DeviceModel_WatchBS",
+		"name" : "Apple Watch SE 44mm case",
+		"year" : "2020",
+		"type" : "DeviceType_Watch"
+	},
+	"Watch6,1" : {
+		"cpu" : "Apple S6 CPU @ ???MHz",
+		"info" : "Wifi (model A2291)",
+		"model" : "DeviceModel_WatchS",
+		"name" : "Apple Watch Series 6 40mm case",
+		"year" : "2020",
+		"type" : "DeviceType_Watch"
+	},
+	"Watch6,2" : {
+		"cpu" : "Apple S6 CPU @ ???MHz",
+		"info" : "Wifi (model A2292)",
+		"model" : "DeviceModel_WatchB",
+		"name" : "Apple Watch Series 6 44mm case",
+		"year" : "2020",
+		"type" : "DeviceType_Watch"
+	},
+	"Watch6,3" : {
+		"cpu" : "Apple S6 CPU @ ???MHz",
+		"info" : "Wifi + Cellular (model A2375, A2293)",
+		"model" : "DeviceModel_WatchSS",
+		"name" : "Apple Watch Series 6 40mm case",
+		"year" : "2020",
+		"type" : "DeviceType_Watch"
+	},	
+	"Watch6,4" : {
+		"cpu" : "Apple S6 CPU @ ???MHz",
+		"info" : "Wifi + Cellular (model A2376, A2294)",
+		"model" : "DeviceModel_WatchBS",
+		"name" : "Apple Watch Series 6 44mm case",
+		"year" : "2020",
+		"type" : "DeviceType_Watch"
+	},
+
+	"MacBook1,1" : {
+		"year" : "2006",
+		"info" : "Black or white",
+		"legal" : "Intel&Core,T2400|T2500,1.83|2.00",
+		"name" : "MacBook 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBook"
+	},	
+	"MacBook2,1" : {
+		"year" : "2006-2007",
+		"info" : "Black or white",
+		"legal" : "Intel&Core,T5600|T7200|T7400,1.83|2.00|2.16",
+		"name" : "MacBook 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBook"
+	},	
+	"MacBook3,1" : {
+		"year" : "Late 2007",
+		"info" : "Black or white",
+		"legal" : "Intel&Core,T7300|T7500,2.00|2.20",
+		"name" : "MacBook 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBook"
+	},	
+	"MacBook4,1" : {
+		"year" : "Early or Late 2008",
+		"info" : "Black or white",
+		"legal" : "Intel&Core,T8100|T8300,2.10|2.40",
+		"name" : "MacBook 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBook"
+	},	
+	"MacBook5,1" : {
+		"year" : "Late 2008",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,P7350|P8600,2.00|2.40",
+		"name" : "MacBook 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBook"
+	},	
+	"MacBook5,2" : {
+		"year" : "Early or Mid 2009",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,P7350|P7450,2.00|2.13",
+		"name" : "MacBook 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBook"
+	},	
+	"MacBook6,1" : {
+		"year" : "Late 2009",
+		"info" : "White polycarbonate",
+		"legal" : "Intel&Core,P7550,2.26",
+		"name" : "MacBook 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBook"
+	},	
+	"MacBook7,1" : {
+		"year" : "Mid 2010",
+		"info" : "With white unibody enclosure",
+		"legal" : "Intel&Core,P8600,2.40",
+		"name" : "MacBook 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBook"
+	},	
+	"MacBook8,1" : {
+		"year" : "Early 2015",
+		"info" : "With Retina display",
+		"legal" : "Intel&Core,M-5Y31|M-5Y51|M-5Y71,1.10|1.20|1.30",
+		"name" : "MacBook 12\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBook"
+	},	
+	"MacBook9,1" : {
+		"year" : "Early 2016",
+		"info" : "With Retina display",
+		"legal" : "Intel&Core,6Y30|6Y54|6Y75,1.10|1.20|1.30",
+		"name" : "MacBook 12\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBook"
+	},	
+	"MacBook10,1" : {
+		"year" : "Mid 2017",
+		"info" : "With Retina display",
+		"legal" : "Intel&Core,7Y32|7Y54|7Y75,1.20|1.30|1.40",
+		"name" : "MacBook 12\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBook"
+	},	
+	
+	"MacBookAir1,1" : {
+		"year" : "2008",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,P7500|P7700,1.60|1.80",
+		"name" : "MacBook Air",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir2,1" : {
+		"year" : "Late 2008 or Mid 2009",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,L9300|L9400|L9600,1.60|1.86|2.13",
+		"name" : "MacBook Air",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir3,1" : {
+		"year" : "Late 2010",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,U9400|U9600,1.40|1.60",
+		"name" : "MacBook Air 11\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir3,2" : {
+		"year" : "Late 2010",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,L9400|L9600,1.86|2.13",
+		"name" : "MacBook Air 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir4,1" : {
+		"year" : "Mid 2011",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,2467M|2677M,1.60|1.80",
+		"name" : "MacBook Air 11\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},
+	"MacBookAir4,2" : {
+		"year" : "Mid 2011",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,2557M|2677M,1.70|1.80",
+		"name" : "MacBook Air 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir5,1" : {
+		"year" : "Mid 2012",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,3317U|3667U,1.70|2.00",
+		"name" : "MacBook Air 11\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir5,2" : {
+		"year" : "Mid 2012",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,3427U|3667U,1.80|2.00",
+		"name" : "MacBook Air 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir6,1" : {
+		"year" : "Mid 2013 or Early 2014",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,4250U|4260U|4650U,1.30|1.40|1.70",
+		"name" : "MacBook Air 11\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir6,2" : {
+		"year" : "Mid 2013 or Early 2014",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,4250U|4260U|4650U,1.30|1.40|1.70",
+		"name" : "MacBook Air 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir7,1" : {
+		"year" : "Early 2015",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,5250U|5650U,1.60|2.20",
+		"name" : "MacBook Air 11\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir7,2" : {
+		"year" : "Early 2015 or 2017",
+		"info" : "Precision aluminum unibody",
+		"legal" : "Intel&Core,5250U|5350U|5650U,1.60|1.80|2.20",
+		"name" : "MacBook Air 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir8,1" : {
+		"year" : "2018",
+		"info" : "With Retina display",
+		"legal" : "Intel&Core,8210Y,1.60",
+		"name" : "MacBook Air 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir8,2" : {
+		"year" : "2019",
+		"info" : "With Retina display",
+		"legal" : "Intel&Core,8210Y,1.60",
+		"name" : "MacBook Air 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},	
+	"MacBookAir9,1" : {
+		"year" : "2020",
+		"info" : "Gray Silver or Gold",
+		"legal" : "Intel&Core,1000NG4|1030NG7|1060NG7,1.10|1.20",
+		"name" : "MacBook Air 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},
+	"MacBookAir10,1" : {
+		"cpu" : "Apple M1 CPU @ 3.2 GHz",
+		"year" : "2020",
+		"info" : "With Apple Silicon",
+		"legal" : "Apple",
+		"name" : "MacBook Air 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookAir"
+	},
+
+	"MacBookPro1,1" : {
+		"year" : "2006",
+		"info" : "Lightweight aluminum alloy",
+		"legal" : "Intel&Core,T2400|T2500|T2600,1.83|2.00|2.16",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro1,2" : {
+		"year" : "2006",
+		"info" : "Lightweight aluminum alloy",
+		"legal" : "Intel&Core,T2600,2.16",
+		"name" : "MacBook Pro 17\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro2,1" : {
+		"year" : "2006",
+		"info" : "Lightweight aluminum alloy",
+		"legal" : "Intel&Core,T7600,2.33",
+		"name" : "MacBook Pro 17\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro2,2" : {
+		"year" : "2006",
+		"info" : "Lightweight aluminum alloy",
+		"legal" : "Intel&Core,T7400|T7600,2.16|2.33",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro3,1" : {
+		"year" : "Mid or Late 2007",
+		"info" : "Lightweight aluminum alloy",
+		"legal" : "Intel&Core,T7500|T7700|T7800,2.20|2.40|2.60",
+		"name" : "MacBook Pro 15\" or 17\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro4,1" : {
+		"year" : "Early or Late 2008",
+		"info" : "With Multi-Touch trackpad",
+		"legal" : "Intel&Core,T8300|T9300|T9500,2.40|2.50|2.60",
+		"name" : "MacBook Pro 15\" or 17\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro5,1" : {
+		"year" : "Late 2008",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,P8600|T9400|T9550|T9600|T9800,2.40|2.53|2.66|2.80|2.93",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro5,2" : {
+		"year" : "Early or Mid 2009",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,T9550|T9800|T9600|T9900,2.66|2.80|2.93|3.06",
+		"name" : "MacBook Pro 17\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro5,3" : {
+		"year" : "Mid 2009",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,P8800|T9600|T9900,2.66|2.80|3.06",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro5,4" : {
+		"year" : "Mid 2009",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,P8700|P8700,2.53|2.53",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro5,5" : {
+		"year" : "Mid 2009",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,P7550|P8400|P8700,2.26|2.53",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro6,1" : {
+		"year" : "Mid 2010",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,M 540|M 620|M 640,2.53|2.66|2.80",
+		"name" : "MacBook Pro 17\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro6,2" : {
+		"year" : "Mid 2010",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,M 520|M 540|M 620|M 640,2.40|2.53|2.66|2.80",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro7,1" : {
+		"year" : "Mid 2010",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,P8600|P8800,2.40|2.66",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro8,1" : {
+		"year" : "Early or Late 2011",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,2415M|2620M|2435M|2640M,2.30|2.70|2.40|2.80",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro8,2" : {
+		"year" : "Early or Late 2011",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,2635QM|2720QM|2820QM|2675QM|2760QM|2860QM,2.00|2.20|2.30|2.40|2.50",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro8,3" : {
+		"year" : "Early or Late 2011",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,2720QM|2820QM|2760QM|2860QM,2.20|2.30|2.40|2.50",
+		"name" : "MacBook Pro 17\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro9,1" : {
+		"year" : "Mid 2012",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,3615QM|3720QM|3820QM,2.30|2.60|2.70",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},
+	"MacBookPro9,2" : {
+		"year" : "Mid 2012",
+		"info" : "With aluminum unibody",
+		"legal" : "Intel&Core,3210M|3520M,2.50|2.90",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro10,1" : {
+		"year" : "Mid 2012 or Early 2013",
+		"info" : "With Retina display and aluminum unibody",
+		"legal" : "Intel&Core,3615QM|3720QM|3820QM|3635QM|3740QM|3840QM,2.30|2.40|2.60|2.70|2.80",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro10,2" : {
+		"year" : "Late 2012 or Early 2013",
+		"info" : "With Retina display and aluminum unibody",
+		"legal" : "Intel&Core,3210M|3520M|3230M|3540M,2.50|2.60|2.90|3.00",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro11,1" : {
+		"year" : "Late 2013 or Mid 2014",
+		"info" : "With Retina display and aluminum unibody",
+		"legal" : "Intel&Core,4258U|4288U|4558U|4278U|4308U|4578U,2.40|2.60|2.80|3.00",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro11,2" : {
+		"year" : "Late 2013 or Mid 2014",
+		"info" : "With Retina display and aluminum unibody",
+		"legal" : "Intel&Core,4750HQ|4850HQ|4960HQ|4770HQ|4870HQ|4980HQ,2.00|2.20|2.30|2.50|2.60|2.80",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro11,3" : {
+		"year" : "Late 2013 or Mid 2014",
+		"info" : "With Retina display and aluminum unibody",
+		"legal" : "Intel&Core,4750HQ|4850HQ|4960HQ|4770HQ|4870HQ|4980HQ,2.00|2.20|2.30|2.50|2.60|2.80",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro11,4" : {
+		"year" : "Mid 2015",
+		"info" : "With Retina display and aluminum unibody",
+		"legal" : "Intel&Core,4770HQ|4870HQ|4980HQ,2.20|2.50|2.80",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro11,5" : {
+		"year" : "Mid 2015",
+		"info" : "With Retina display and aluminum unibody",
+		"legal" : "Intel&Core,4770HQ|4870HQ|4980HQ,2.20|2.50|2.80",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro12,1" : {
+		"year" : "Early 2015",
+		"info" : "With Retina display and aluminum unibody",
+		"legal" : "Intel&Core,5257U|5287U|5557U,2.70|2.90|3.10",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro13,1" : {
+		"year" : "2016",
+		"info" : "With Thunderbolt 3",
+		"legal" : "Intel&Core,6360U|6660U,2.00|2.40",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro13,2" : {
+		"year" : "2016",
+		"info" : "With Thunderbolt 3 and Touch ID",
+		"legal" : "Intel&Core,6267U|6287U|6567U,2.90|3.10|3.30",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro13,3" : {
+		"year" : "2016",
+		"info" : "With Thunderbolt 3 and Touch ID",
+		"legal" : "Intel&Core,6700HQ|6820HQ|6920HQ,2.60|2.70|2.90",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro14,1" : {
+		"year" : "2017",
+		"info" : "With Thunderbolt 3",
+		"legal" : "Intel&Core,7360U|7660U,2.30|2.50",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro14,2" : {
+		"year" : "2017",
+		"info" : "With Thunderbolt 3 and Touch ID",
+		"legal" : "Intel&Core,7267U|7287U|7567U,3.10|3.30|3.50",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro14,3" : {
+		"year" : "2017",
+		"info" : "With Thunderbolt 3 and Touch ID",
+		"legal" : "Intel&Core,7700HQ|7820HQ|7920HQ,2.80|2.90|3.10",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro15,1" : {
+		"year" : "2018 or 2019",
+		"info" : "With Thunderbolt 3 and Touch ID",
+		"legal" : "Intel&Core,8750H|8850H|8950HK|9750H|9880H|9980HK,2.20|2.30|2.40|2.60|2.90",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro15,2" : {
+		"year" : "2018 or 2019",
+		"info" : "With Thunderbolt 3 and Touch ID",
+		"legal" : "Intel&Core,8259U|8559U|8279U|8569U,2.30|2.40|2.70|2.80",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro15,3" : {
+		"year" : "2018 or 2019",
+		"info" : "Silver or Gray",
+		"legal" : "Intel&Core,8750H|8850H|8950HK|9750H|9880H|9980HK,2.20|2.30|2.40|2.60|2.90",
+		"name" : "MacBook Pro 15\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro15,4" : {
+		"year" : "2019",
+		"info" : "With Two Thunderbolt 3 ports",
+		"legal" : "Intel&Core,8257U|8557U,1.40|1.70",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro16,1" : {
+		"year" : "2019",
+		"info" : "Silver or Space Gray",
+		"legal" : "Intel&Core,9750H|9880H|9980HK,2.60|2.30|2.40",
+		"name" : "MacBook Pro 16\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro16,2" : {
+		"year" : "2020",
+		"info" : "With Four Thunderbolt 3 ports",
+		"legal" : "Intel&Core,1038NG7|1068NG7,2.00|2.30",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro16,3" : {
+		"year" : "2020",
+		"info" : "With Two Thunderbolt 3 ports",
+		"legal" : "Intel&Core,8257U|8557U,1.40|1.70",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},	
+	"MacBookPro16,4" : {
+		"year" : "2019",
+		"info" : "Silver or Space Gray",
+		"legal" : "Intel&Core,9750H|9880H|9980HK,2.60|2.30|2.40",
+		"name" : "MacBook Pro 16\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},
+	"MacBookPro17,1" : {
+		"cpu" : "Apple M1 CPU @ 3.2 GHz",
+		"year" : "2020",
+		"info" : "With Apple Silicon",
+		"legal" : "Apple",
+		"name" : "MacBook Pro 13\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},
+	"MacBookPro18,1" : {
+		"cpu" : "Apple M1 Pro CPU @ 3.2 GHz",
+		"year" : "2021",
+		"info" : "With Apple Silicon",
+		"legal" : "Apple",
+		"name" : "MacBook Pro 16\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},
+	"MacBookPro18,2" : {
+		"cpu" : "Apple M1 Max CPU @ 3.2 GHz",
+		"year" : "2021",
+		"info" : "With Apple Silicon",
+		"legal" : "Apple",
+		"name" : "MacBook Pro 16\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},
+	"MacBookPro18,3" : {
+		"cpu" : "Apple M1 Pro CPU @ 3.2 GHz",
+		"year" : "2021",
+		"info" : "With Apple Silicon",
+		"legal" : "Apple",
+		"name" : "MacBook Pro 14\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},
+	"MacBookPro18,4" : {
+		"cpu" : "Apple M1 Max CPU @ 3.2 GHz",
+		"year" : "2021",
+		"info" : "With Apple Silicon",
+		"legal" : "Apple",
+		"name" : "MacBook Pro 14\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacBookPro"
+	},
+
+	"MacPro1,1" : {
+		"year" : "Mid 2006",
+		"info" : "Desktop Tower (aluminum enclosure)",
+		"legal" : "Intel&Xeon,X5365|X5355|X5355|E5345|E5340|L5335|L5320|E5320|5160|5150|5130,1.86|2.00|2.33|2.40|2.66|3.00",
+		"name" : "Mac Pro",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacPro"
+	},
+	"MacPro1,1,Quad" : {
+		"year" : "Mid 2006",
+		"info" : "Desktop Tower (aluminum enclosure)",
+		"legal" : "Intel&Xeon,5160,2.99|2.99",
+		"name" : "Mac Pro",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacPro"
+	},	
+	"MacPro2,1" : {
+		"year" : "Early 2007",
+		"info" : "Desktop Tower (aluminum enclosure)",
+		"legal" : "Intel&Xeon,X5365|X5355|X5355|E5345|E5340|L5335|L5320|E5320|5160|5150|5130,1.86|2.00|2.33|2.40|2.66|3.00",
+		"name" : "Mac Pro",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacPro"
+	},	
+	"MacPro3,1" : {
+		"year" : "Early 2008",
+		"info" : "Desktop Tower (aluminum enclosure)",
+		"legal" : "Intel&Xeon,X5482|X5460|E5472|X5472|X5450|E5450|E5440|E5462|X5272|X5260,2.80|3.00|3.16|3.20|3.33|3.40",
+		"name" : "Mac Pro",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacPro"
+	},	
+	"MacPro4,1" : {
+		"year" : "Early 2009",
+		"info" : "Desktop Tower (aluminum enclosure)",
+		"legal" : "Intel&Xeon,X5690|X5680|X5679|X5675|X5670|X5660|X5650|E5649|E5645|L5639|W3690|W3680|W3670|990X|980X|975|970|965|960|950|940|930|920|X5677|X5672|X5667|X5647|E5640|E5630|E5620|X5698|W5590|W5580|X5570|X5560|X5550|E5540|E5530|E5520|W3580|W3570|W3565|W3540|W3530|W3520,2.13|2.26|2.40|2.53|2.66|2.80|2.93|3.06|3.20|3.33|3.46|4.40",
+		"name" : "Mac Pro",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacPro"
+	},	
+	"MacPro5,1" : {
+		"year" : "Mid 2010 or 2012",
+		"info" : "Desktop Tower (aluminum enclosure)",
+		"legal" : "Intel&Xeon,X5690|X5680|X5679|X5675|X5670|X5660|X5650|E5649|E5645|L5639|W3690|W3680|W3670|990X|980X|975|970|965|960|950|940|930|920|X5677|X5672|X5667|X5647|E5640|E5630|E5620|X5698|W5590|W5580|X5570|X5560|X5550|E5540|E5530|E5520|W3580|W3570|W3565|W3540|W3530|W3520,2.13|2.26|2.40|2.53|2.66|2.80|2.93|3.06|3.20|3.33|3.46|3.47|4.40",
+		"name" : "Mac Pro",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacPro"
+	},	
+	"MacPro6,1" : {
+		"year" : "Late 2013",
+		"info" : "Pro desktop enclosure",
+		"legal" : "Intel&Xeon,E5-2678|E5-1620|E5-1650|E5-1680|E5-1660|E5-2667|E5-2673|E5-2695|E5-2690|E5-2687W|E5-2680|E5-2696|E5-2697,3.70|3.50|3.00|2.40|2.50|2.70|2.80|3.40|3.30|",
+		"name" : "Mac Pro",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacPro"
+	},	
+	"MacPro7,1" : {
+		"year" : "2019",
+		"info" : "With Xeon W processor",
+		"legal" : "Intel&Xeon,W-3223|W-3225|W-3235|W-3245|W-3245M|W-3265M|W-3275M,3.70|3.50|3.30|3.20|2.70|2.50",
+		"name" : "Mac Pro",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacPro"
+	},	
+
+	"Macmini1,1" : {
+		"year" : "Early or Late 2006",
+		"info" : "Small-footprint desktop",
+		"legal" : "Intel&Core,T1200|T2300|T2400,1.50|1.66|1.83",
+		"name" : "Mac mini",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},	
+	"Macmini2,1" : {
+		"year" : "Mid 2007",
+		"info" : "Small-footprint desktop",
+		"legal" : "Intel&Core,T5600|T7200,1.83|2.00",
+		"name" : "Mac mini",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},	
+	"Macmini3,1" : {
+		"year" : "Early or Late 2009",
+		"info" : "With NVIDIA GeForce 9400M",
+		"legal" : "Intel&Core,P7350|P8400|P7550|P8700|P8800,2.00|2.26|2.53|2.66",
+		"name" : "Mac mini",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},	
+	"Macmini4,1" : {
+		"year" : "Mid 2010",
+		"info" : "With NVIDIA GeForce 320M",
+		"legal" : "Intel&Core,P8600|P8800,2.40|2.66",
+		"name" : "Mac mini",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},	
+	"Macmini5,1" : {
+		"year" : "Mid 2011",
+		"info" : "With Intel HD Graphics 3000",
+		"legal" : "Intel&Core,2415M|2520M|2620M,2.30|2.50|2.70",
+		"name" : "Mac mini",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},	
+	"Macmini5,2" : {
+		"year" : "Mid 2011",
+		"info" : "With AMD Radeon HD 6630M",
+		"legal" : "Intel&Core,2415M|2520M|2620M,2.30|2.50|2.70",
+		"name" : "Mac mini",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},	
+	"Macmini5,3" : {
+		"year" : "Mid 2011",
+		"info" : "With Intel HD Graphics 3000",
+		"legal" : "Intel&Core,2635QM|2635QM,2.00|2.00",
+		"name" : "Mac mini server",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},	
+	"Macmini6,1" : {
+		"year" : "Late 2012",
+		"info" : "With Intel HD Graphics 4000",
+		"legal" : "Intel&Core,3210M|3615QM|3720QM,2.50|2.30|2.60",
+		"name" : "Mac mini",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},	
+	"Macmini6,2" : {
+		"year" : "Late 2012",
+		"info" : "With Intel HD Graphics 4000",
+		"legal" : "Intel&Core,3210M|3615QM|3720QM,2.50|2.30|2.60",
+		"name" : "Mac mini",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},
+	"Macmini7,1" : {
+		"year" : "Late 2014",
+		"info" : "With integrated graphics",
+		"legal" : "Intel&Core,4260U|4278U|4308U|4578U,1.40|2.60|2.80|3.00",
+		"name" : "Mac mini",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},	
+	"Macmini8,1" : {
+		"year" : "Late 2018",
+		"info" : "With Intel UHD graphics 630",
+		"legal" : "Intel&Core,8100B|8500B|8700B,3.60|3.00|3.20",
+		"name" : "Mac mini",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},	
+	"ADP3,2" : {
+		"year" : "2020",
+		"info" : "With Rosetta 2",
+		"legal" : "VirtualApple,2.50",
+		"name" : "Mac mini DTK",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},	
+	"Macmini9,1" : {
+		"cpu" : "Apple M1 CPU @ 3.2 GHz",
+		"year" : "2020",
+		"info" : "With Apple Silicon",
+		"legal" : "Apple",
+		"name" : "Mac mini",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_MacMini"
+	},
+
+	"Xserve1,1" : {
+		"year" : "Late 2006",
+		"info" : "Based rack-mounted server",
+		"legal" : "Intel&Xeon,X5365|E5345|E5340|L5335|5160|5150|5130,2.00|2.33|2.40|2.66|3.00",
+		"name" : "Xserve",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_Xserve"
+	},	
+	"Xserve2,1" : {
+		"year" : "Early 2008",
+		"info" : "Based rack-mounted server",
+		"legal" : "Intel&Xeon,E5472|E5462,2.80|3.00",
+		"name" : "Xserve",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_Xserve"
+	},	
+	"Xserve3,1" : {
+		"year" : "Early 2009",
+		"info" : "Based rack-mounted server",
+		"legal" : "Intel&Xeon,W5590|X5570|X5550|E5520,2.26|2.93|2.66|3.33",
+		"name" : "Xserve",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_Xserve"
+	},	
+
+	"iMac4,1" : {
+		"year" : "Early 2006",
+		"info" : "Flat-panel",
+		"legal" : "Intel&Core,T2400|T2500,1.83|2.00",
+		"name" : "iMac 17\" or 20\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},
+	"iMac4,2" : {
+		"year" : "Mid 2006",
+		"info" : "Flat-panel",
+		"legal" : "Intel&Core,T2400,1.83",
+		"name" : "iMac 17\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac5,1" : {
+		"year" : "Late 2006",
+		"info" : "Flat-panel",
+		"legal" : "Intel&Core,T7200|T7400,2.00|2.16",
+		"name" : "iMac 17\" or 20\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac5,2" : {
+		"year" : "Late 2006",
+		"info" : "Flat-panel",
+		"legal" : "Intel&Core,T7200|T7400|T7600,2.00|2.16|2.33",
+		"name" : "iMac 17\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac6,1" : {
+		"year" : "2006",
+		"info" : "Flat-panel",
+		"legal" : "Intel&Core,T7400|T7600,2.16|2.33",
+		"name" : "iMac 24\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac7,1" : {
+		"year" : "Mid 2007",
+		"info" : "Flat-panel (aluminum enclosure)",
+		"legal" : "Intel&Core,T7300|T7700,2.00|2.40|2.80",
+		"name" : "iMac 20\" or 24\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac8,1" : {
+		"year" : "Early 2008",
+		"info" : "Flat-panel (aluminum enclosure)",
+		"legal" : "Intel&Core,E8135|E8335|E8235|E8435,2.40|2.66|2.80|3.06",
+		"name" : "iMac 20\" or 24\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac9,1" : {
+		"year" : "Early or Mid 2009",
+		"info" : "Flat-panel (aluminum enclosure)",
+		"legal" : "Intel&Core,E8135|E8335|E8435|P7350|P7550,2.00|2.26|2.66|2.93|3.06",
+		"name" : "iMac 20\" or 24\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac10,1" : {
+		"year" : "Late 2009",
+		"info" : "With widescreen LED display",
+		"legal" : "Intel&Core,E7600|E8600|E7600|E8600|750|860,3.06|3.33|2.66|2.80",
+		"name" : "iMac 21.5\" or 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac11,1" : {
+		"year" : "Late 2009",
+		"info" : "With widescreen LED display",
+		"legal" : "Intel&Core,E7600|E8600|750|860,3.06|3.33|2.66|2.80",
+		"name" : "iMac 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac11,2" : {
+		"year" : "Mid 2010",
+		"info" : "With widescreen LED display",
+		"legal" : "Intel&Core,540|550|680,3.06|3.20|3.60",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac11,3" : {
+		"year" : "Mid 2010",
+		"info" : "With widescreen LED display",
+		"legal" : "Intel&Core,550|680|760|870,3.20|3.60|2.80|2.93 ",
+		"name" : "iMac 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac12,1" : {
+		"year" : "Mid or Late 2011",
+		"info" : "With Thunderbolt",
+		"legal" : "Intel&Core,2400S|2500S|2600S|2100,2.50|2.70|2.80|3.10",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac12,2" : {
+		"year" : "Mid 2011",
+		"info" : "With Thunderbolt",
+		"legal" : "Intel&Core,2500S|2400|2600,2.70|3.10|3.40",
+		"name" : "iMac 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac13,1" : {
+		"year" : "Late 2012 or Early 2013",
+		"info" : "With widescreen LED-backlit display",
+		"legal" : "Intel&Core,3330S|3470S|3770S|3225,2.70|2.90|3.10|3.3",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac13,2" : {
+		"year" : "Late 2012",
+		"info" : "With widescreen LED-backlit display",
+		"legal" : "Intel&Core,3470S|3470|3770,2.90|3.20|3.40",
+		"name" : "iMac 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},
+	"iMac13,3" : {
+		"year" : "Early 2013",
+		"info" : "With widescreen LED-backlit display",
+		"legal" : "Intel&Core,3225,3.30",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac14,1" : {
+		"year" : "Late 2013",
+		"info" : "With widescreen LED-backlit display",
+		"legal" : "Intel&Core,4570R|4570S|4770S,2.70|2.90|3.10",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},		
+	"iMac14,2" : {
+		"year" : "Late 2013",
+		"info" : "With widescreen LED-backlit display",
+		"legal" : "Intel&Core,4570|4670|4771,3.20|3.40|3.50",
+		"name" : "iMac 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac14,3" : {
+		"year" : "Late 2013",
+		"info" : "With widescreen LED-backlit display",
+		"legal" : "Intel&Core,4570R|4570S|4770S,2.70|2.90|3.10",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac14,4" : {
+		"year" : "Mid 2014",
+		"info" : "Widescreen LED-backlit display",
+		"legal" : "Intel&Core,4260U,1.40",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},
+	"iMac15,1" : {
+		"year" : "Late 2014 or Mid 2015",
+		"info" : "Widescreen LED-backlit display",
+		"legal" : "Intel&Core,4690|4790K|4590,3.30|3.50|4.00",
+		"name" : "iMac 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac16,1" : {
+		"year" : "Late 2015",
+		"info" : "Widescreen LED-backlit display",
+		"legal" : "Intel&Core,5250U|5575R,1.60|2.80",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},
+	"iMac16,2" : {
+		"year" : "Late 2015",
+		"info" : "Widescreen or Retina 4K display",
+		"legal" : "Intel&Core,5250U|5575R|5675R|5775R,1.60|2.80|3.10|3.30",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac17,1" : {
+		"year" : "Late 2015",
+		"info" : "Widescreen or Retina 5K display",
+		"legal" : "Intel&Core,6500|6600|6700K,3.20|3.30|4.00",
+		"name" : "iMac 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac18,1" : {
+		"year" : "2017",
+		"info" : "Widescreen",
+		"legal" : "Intel&Core,7360U,2.30",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac18,2" : {
+		"year" : "2017",
+		"info" : "With Retina 4K display",
+		"legal" : "Intel&Core,7400|7500|7700,3.00|3.40|3.60",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac18,3" : {
+		"year" : "2017",
+		"info" : "With Retina 5K display",
+		"legal" : "Intel&Core,7500|7600|7600K|7700K,3.40|3.50|3.80|4.20",
+		"name" : "iMac 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac19,1" : {
+		"year" : "2019",
+		"info" : "With Retina 5K display",
+		"legal" : "Intel&Core,8500|8600|9600K|9900K,3.00|3.10|3.70|3.60",
+		"name" : "iMac 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},	
+	"iMac19,2" : {
+		"year" : "2019",
+		"info" : "With Retina 4K display",
+		"legal" : "Intel&Core,8100|8500|8700,3.60|3.00|3.20",
+		"name" : "iMac 21.5\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},
+	"iMac20,1" : {
+		"year" : "2020",
+		"info" : "With Retina 5K display",
+		"legal" : "Intel&Core,10500|10600|10700K|10910,3.10|3.30|3.60|3.80",
+		"name" : "iMac 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},
+	"iMac20,2" : {
+		"year" : "2020",
+		"info" : "With Retina 5K display",
+		"legal" : "Intel&Core,10700K|10910,3.60|3.80",
+		"name" : "iMac 27\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},
+	"iMac21,1" : {
+		"cpu" : "Apple M1 CPU @ 3.2 GHz",
+		"year" : "2021",
+		"info" : "With Apple Silicon",
+		"legal" : "Apple",
+		"name" : "iMac 24\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},
+	"iMac21,2" : {
+		"cpu" : "Apple M1 CPU @ 3.2 GHz",
+		"year" : "2021",
+		"info" : "With Apple Silicon",
+		"legal" : "Apple",
+		"name" : "iMac 24\"",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMac"
+	},
+		
+	"iMacPro1,1" : {
+		"year" : "2017",
+		"info" : "With Radeon Pro Vega graphics",
+		"legal" : "Intel&Xeon,W-2140B|W-2150B|W-2170B|W-2191B,3.20|3.00|2.50|2.30",
+		"name" : "iMac Pro",
+		"type" : "DeviceType_Mac",
+		"model" : "DeviceModel_iMacPro"
+	}
+}
