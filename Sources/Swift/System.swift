@@ -285,7 +285,7 @@ public extension System {
                 if lastUpdate == nil || date == nil || lastUpdate! < date! {
                    if let data = try? Data(contentsOf: url),
                       let dict = try? JSONDecoder().decode([String:DBDevice].self, from: data) {
-                       UserDefaults.standard.set(date, forKey: System.SYSTEM_UPDATE)
+                       UserDefaults.standard.set(Date(), forKey: System.SYSTEM_UPDATE)
                        UserDefaults.standard.set(data, forKey: System.SYSTEM_CONFIG)
                        DispatchQueue.main.async { System.db = dict }
                        dispatchGroup.leave()
