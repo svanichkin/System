@@ -288,10 +288,10 @@ public extension System {
                        UserDefaults.standard.set(newContentLength, forKey: System.SYSTEM_UPDATE)
                        UserDefaults.standard.set(data, forKey: System.SYSTEM_CONFIG)
                        DispatchQueue.main.async { System.db = dict }
-                       dispatchGroup.leave()
                    }
                 }
             }
+            dispatchGroup.leave()
         }
         dispatchGroup.wait()
     }
