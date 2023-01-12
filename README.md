@@ -72,6 +72,18 @@ print(device.cpu)   // Apple M1 CPU @ 3.2 GHz
 print(device.year)  // 2020
 ```
 
+## Sample 3
+
+### Get Sysctl information:
+
+If you want to see the entire list of available parameters, you can first execute the "sysctl -a" command in the macOS terminal. These same commands are also available on iOS. 
+Use two methods for string strSysctl() and numerical intSysctl() parameters.
+
+```swift
+print(System.strSysctl("kern.version")
+print(System.intSysctl("hw.l1icachesize")
+```
+
 ### How it work:
 
 I collected all the mechanisms to collect information in one convenient class.

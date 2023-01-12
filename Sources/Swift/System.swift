@@ -20,6 +20,10 @@ public class System {
     public static let os         :Os          = O()
     
     public static func device(_ index:String) -> Device {D(index)}
+    
+    // Sample intSysctl("hw.activecpu") -> 8
+    public static func strSysctl(_ variable:String ) -> String? {gss(variable)}
+    public static func intSysctl(_ variable:String ) -> Int?    {gis(variable)}
 }
 
 /// Main protocols
@@ -145,9 +149,9 @@ public extension System {
                 else if let arch = ProcessInfo().environment["SIMULATOR_ARCHS"],
                         arch.contains("x86_64") { index = "x86_64" }
                 else { index = "i386" }
-            } else { index = getSysInfo("hw.model") }
+            } else { index = gss("hw.model")! }
             
-            let currentCPULegal = getSysInfo("machdep.cpu.brand_string")
+            let currentCPULegal = gss("machdep.cpu.brand_string")
             
             let d = D(index)
             
@@ -464,12 +468,20 @@ public extension System {
         }
         return identifier
     }
-    private static func getSysInfo(_ typeSpecifier: String ) -> String {
+    private static func gss(_ typeSpecifier: String ) -> String? {
         var size:Int = 0
         sysctlbyname(typeSpecifier, nil, &size, nil, 0);
         var answer = [CChar](repeating: 0,  count: size)
         sysctlbyname(typeSpecifier, &answer, &size, nil, 0)
-        if answer.count > 0, let result = String(cString: answer, encoding: .utf8) { return result }
-        return ""
+        if answer.count > 0 { return String(cString: answer, encoding: .utf8) }
+        return nil
+    }
+    private static func gis(_ typeSpecifier: String ) -> Int? {
+        var size:Int = 0
+        sysctlbyname(typeSpecifier, nil, &size, nil, 0);
+        var answer = [CChar](repeating: 0,  count: size)
+        sysctlbyname(typeSpecifier, &answer, &size, nil, 0)
+        if answer.count > 0 { return UnsafeRawPointer(answer).assumingMemoryBound(to: Int.self).pointee.littleEndian }
+        return nil
     }
 }
