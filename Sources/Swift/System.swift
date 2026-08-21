@@ -2,7 +2,7 @@
 //  System.swift
 //  Test
 //
-//  Created by Сергей Ваничкин on 07.01.2023.
+//  Created by Sergey Vanichkin on 07.01.2023.
 //
 
 import Foundation
