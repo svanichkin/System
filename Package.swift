@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "System",
+    name: "SystemInfo",
     platforms: [
         .watchOS(.v4),
         .iOS(.v13),
@@ -12,14 +12,14 @@ let package = Package(
       ],
     products: [
         .library(
-            name: "System",
-            targets: ["System"]
+            name: "SystemInfo",
+            targets: ["SystemInfo"]
         )
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "System",
+            name: "SystemInfo",
             path: "Sources/Swift"
         )
     ]

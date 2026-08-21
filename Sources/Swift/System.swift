@@ -9,21 +9,35 @@ import Foundation
 import UIKit
 
 /// Main class interface
-public class System {
+@objc public class System: NSObject {
     // Set this key in true, if you need that the name of the simulated device
     // was displayed simulated device. For example "iPhone14,5" (iPhone 13).
     // By default this key is false. Will show "x86_64" (64-bit the simulator).
     public static var maskSimulatorWithRealDevice = false
-    
+
     public static let application:Application = A()
     public static let device     :Device      = D()
     public static let os         :Os          = O()
-    
+
     public static func device(_ index:String) -> Device {D(index)}
-    
+
     // Sample intSysctl("hw.activecpu") -> 8
     public static func strSysctl(_ variable:String ) -> String? {gss(variable)}
     public static func intSysctl(_ variable:String ) -> Int?    {gis(variable)}
+}
+
+/// Objective-C compatibility (flattened, since the Application/Device/Os
+/// protocols and their Version/Name/Localized values are Swift-only types
+/// and can't be bridged to Objective-C as-is).
+public extension System {
+    @objc static var applicationVersion: String { application.version.full }
+    @objc static var applicationName: String { application.name.description }
+    @objc static var deviceName: String { device.name ?? device.index }
+    @objc static var deviceModelName: String { device.model.rawValue }
+    @objc static var deviceTypeName: String { device.type.rawValue }
+    @objc static var osName: String { os.name }
+    @objc static var osVersion: String { os.version.full }
+    @objc static var platformName: String { os.platform }
 }
 
 /// Main protocols
